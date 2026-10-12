@@ -106,8 +106,24 @@ main {
     color: #e74c3c;
 }
 
+.add-btn {
+    background-color: #0c9c18;
+    color: white;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: background 0.2s;
+}
+
+.add-btn:hover {
+    background-color: #1cc82a;
+}
+
 .buy-btn {
-    background-color: #27ae60;
+    background-color: #e23241;
     color: white;
     border: none;
     padding: 0.6rem 1.2rem;
@@ -118,7 +134,7 @@ main {
 }
 
 .buy-btn:hover {
-    background-color: #219653;
+    background-color: #ff5d6a;
 }
 
 /* Pied de page */
